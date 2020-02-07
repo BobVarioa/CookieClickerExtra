@@ -14,12 +14,14 @@ It will add :
 # Table of Contents : 
 * <a href="#Cookies">Cookies</a>
   * <a href="#FlavoredCookies">Flavored Cookies</a>
-* Misc. Upgrades
-* Kittens
-* Lumps
-* Achievements
-* Heavenly Upgrades
-* St. Patrick's Day
+  * <a href="#Loreos">Loreos</a>
+* <a href="#MiscUpgrades">Misc. Upgrades</a>
+* <a href="#Kittens">Kittens</a>
+* <a href="#Wrinklers">Wrinklers</a>
+* <a href="#Lumps">Lumps</a>
+* <a href="#Achievements>Achievements</a>
+* <a href="#HeavenlyUpgrades>Heavenly Upgrades</a>
+* <a href="#StPatricksDay">St. Patrick's Day</a>
 
 <h2 id="Cookies">Cookies</h2>
 
@@ -228,7 +230,7 @@ Transmuted Grandma Kittens
 
 Silver Transmuted Grandma Kittens
 
-<h2 id="Wrinklers">Wrinklers</h2>
+<h2 id="Wrinklers"> Wrinklers </h2>
 Ouroboros Wrinkler : <br>
 "A newly bred form of wrinkler. When these bad boys fill up to [%] of banked cookies, they break off from the cookie and stay on an outer circle and will feed on itself, allowing for another wrinkler to take its place." <br>
 
@@ -336,12 +338,12 @@ IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
 - Causes a 10% chance for a lump to stay a lump when trying to alter. Upon filtering into a normal lump, the debris of the special lump turns into a Mongo Stack. 
 - When at 10 Mongo Stacks, a timer will begin for the Mongo Lump to form. At the end of the timer, the Mongo Lump will be harvested, which effects are a little of all of the lumps, with a small additional bonus.
 
-## Achievements
+<h2 id="Achievements">Achievements</h2>
 
 Awakened : <br>
 To awaken Kumblor is to give him 100 sugar Lumps, causing his cookie layers to crumble, revealing his true self.
 
-## Heavenly Upgrades
+<h2 id="HeavenlyUpgrades">Heavenly Upgrades</h2>
 Chocolate Circuitry (Heavenly Upgrade, From : Legacy) <br>
 Allows for some new <b>Robotics</b> upgrades to be created <br>
 "The only way we can make out robots certified 100% cookies, is to make the wiring itself cookies too. And lots of those browser thingamajigs." <br>
@@ -362,7 +364,7 @@ Increases a little bit of everything. <br>
 - Grimoire Magic refills 0.001% faster
 - Sugar Lumps mature 1s faster and are 0.001% more likely to be special
 
-## St. Patrick's Day
+<h2 id="StPatricksDay">St. Patrick's Day</h2>
 
 St. Patrick's Background
 
