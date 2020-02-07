@@ -8,7 +8,7 @@ It will add :
 * A few new achievements 
 * Something else probably 
 
-The wiki is located <a scr="https://masterofbob777cc.github.io/CookieClickerExtra/">here</a>
+The wiki is located [here](https://masterofbob777cc.github.io/CookieClickerExtra/)
 ```javascript
 javascript:( function () { Game.LoadMod("https://masterofbob777cc.github.io/CookieClickerExtra/moid/MainMod.js"); }(); );
 ```
