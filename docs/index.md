@@ -11,7 +11,7 @@ It will add :
 * A few new achievements 
 * Something else probably 
 
-<h1>Table of Contents : </h1>
+# Table of Contents : 
 * <a href="#Cookies">Cookies</a>
   * <a href="#FlavoredCookies">Flavored Cookies</a>
   * <a href="#Loreos">Loreos</a>
@@ -26,35 +26,36 @@ It will add :
 <h2 id="Cookies">Cookies</h2>
 
 <h3 id="FlavoredCookies">Flavored Cookies</h3>
+
 RGB Cookie : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
-"Chalk-full of light channels connected to some RGB lights. This cookie changes both colour, and flavour... probably?"
+IDK Cookies <br>
+"Chalk-full of light channels connected to some RGB lights. This cookie changes both colour, and flavour... probably?"<br>
 
 Cookie of Legends : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies <br>
 "A nice golden cookie filled with a blue jelly. This truly is the cookie belonging to Legends of entire different League!" <br>
 
 Thunderchip Cookie : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies <br>
 
 Santa's Leftover Cookie : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies <br>
 - Increases Grimoire magic bar regeneration when Christmas season is active. <br>
 
 Mongo Cookie : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies <br>
 
 Observer Cookie : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies <br>
 
 Kitten Cookie : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies <br>
 
 Cookegao : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies <br>
 
 Rainbow Chips : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies <br>
 
 Mintnight Cookie : <br>
 IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
@@ -333,7 +334,7 @@ Mongo Lump : <br>
 On Harvest : <br>
 
 Sugar Sifting : (Heavenly Upgrade, From : Sugar crystal cookies, Sugar craving) <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Heavenly Chips <br>
 "Down goes the sugar, up stays the... what is this stuff..?" <br>
 - Causes a 10% chance for a lump to stay a lump when trying to alter. Upon filtering into a normal lump, the debris of the special lump turns into a Mongo Stack. 
 - When at 10 Mongo Stacks, a timer will begin for the Mongo Lump to form. At the end of the timer, the Mongo Lump will be harvested, which effects are a little of all of the lumps, with a small additional bonus.
