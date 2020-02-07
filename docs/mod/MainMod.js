@@ -73,7 +73,7 @@ MainMod.launch = function () {
 		var moddedTypes = [];
 		var vanillaTypes = [];
 		if (vanillaTypes.includes(1)) { moddedTypes.splice(moddedTypes.indexOf(1), 1); var isbifurcated = true;};
-		if (types) var vanillaTypes = vanillaTypes.concat(types)];
+		if (types) var vanillaTypes = vanillaTypes.concat(types);
 		
 		// Modded
 		if (Math.random()<1/100) moddedTypes.push(8); // Cookie Lump
@@ -107,9 +107,7 @@ MainMod.launch = function () {
 		else Game.Notify(MainMod.name + ' loaded!', '', '', 1, 1);
 	}
 
-
 	if (CCSE.ConfirmGameVersion(MainMod.name, MainMod.version, MainMod.GameVersion)) MainMod.init();
-}
 
 
 if (!MainMod.isLoaded) {
