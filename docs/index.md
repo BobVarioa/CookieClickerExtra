@@ -13,6 +13,7 @@ It will add :
 
 # Table of Contents : 
 * <a href="#Cookies">Cookies</a>
+  * <a href="#FlavoredCookies">Flavored Cookies</a>
 * Misc. Upgrades
 * Kittens
 * Lumps
@@ -20,9 +21,9 @@ It will add :
 * Heavenly Upgrades
 * St. Patrick's Day
 
-<h2 id="Cookies">Cookies</he>
+<h2 id="Cookies">Cookies</h2>
 
-### Flavored Cookies
+<h3 id="FlavoredCookies">Flavored Cookies</h3>
 RGB Cookie : <br>
 IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
 "Chalk-full of light channels connected to some RGB lights. This cookie changes both colour, and flavour... probably?"
@@ -118,7 +119,7 @@ Makes Robotics upgrades drop more frequent. <br>
 Iron-Nano Cookie : <br>
 IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
 
-### Loreos
+<h3 id="Loreos"> Loreos </h3>
 
 Birthday Cake Loreo : <br>
 IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
@@ -168,7 +169,7 @@ Cinnamon Bun Loreo : <br>
 IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
 - +2% cps
 
-## Misc. Upgrades
+<h3 id="MiscUpgrades"> Misc. Upgrades </h3>
 
 Transdimentional Clicking : <br>
 IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
@@ -213,7 +214,7 @@ Speeds up time by (10 seconds (T1), 1 minute (T2), 1 hour (T3)) <br>
 "Time spins around and around, so why not give it a little push?" <br>
 - Allows speeding up time by 10 seconds (T1), 1 minute (T2), and 1 hour (T3)
 
-## Kittens
+<h2 id="Kittens"> Kittens </h2>
 
 Headless Kittens 
 
@@ -227,7 +228,7 @@ Transmuted Grandma Kittens
 
 Silver Transmuted Grandma Kittens
 
-## Wrinklers
+<h2 id="Wrinklers">Wrinklers</h2>
 Ouroboros Wrinkler : <br>
 "A newly bred form of wrinkler. When these bad boys fill up to [%] of banked cookies, they break off from the cookie and stay on an outer circle and will feed on itself, allowing for another wrinkler to take its place." <br>
 
@@ -241,7 +242,7 @@ Lucky Wrinkler : <br>
 Golden Wrinklers : <br>
 Gives double the amount of interest when popped and spawns a golden cookie. <br>
 
-## Lumps
+<h2 id="Lumps">Lumps</h2>
 
 Cookie Lump :
 
