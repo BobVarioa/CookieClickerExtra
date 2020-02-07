@@ -12,7 +12,7 @@ It will add :
 * Something else probably 
 
 # Table of Contents : 
-* Cookies
+* <a href="#Cookies">Cookies</a>
 * Misc. Upgrades
 * Kittens
 * Lumps
@@ -20,7 +20,7 @@ It will add :
 * Heavenly Upgrades
 * St. Patrick's Day
 
-## Cookies
+<h2 id="Cookies">Cookies</he>
 
 ### Flavored Cookies
 RGB Cookie : <br>
