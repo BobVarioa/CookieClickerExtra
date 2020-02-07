@@ -11,7 +11,7 @@ It will add :
 * A few new achievements 
 * Something else probably 
 
-# Table of Contents : 
+<h1>Table of Contents : </h1>
 * <a href="#Cookies">Cookies</a>
   * <a href="#FlavoredCookies">Flavored Cookies</a>
   * <a href="#Loreos">Loreos</a>
@@ -19,8 +19,8 @@ It will add :
 * <a href="#Kittens">Kittens</a>
 * <a href="#Wrinklers">Wrinklers</a>
 * <a href="#Lumps">Lumps</a>
-* <a href="#Achievements>Achievements</a>
-* <a href="#HeavenlyUpgrades>Heavenly Upgrades</a>
+* <a href="#Achievements">Achievements</a>
+* <a href="#HeavenlyUpgrades">Heavenly Upgrades</a>
 * <a href="#StPatricksDay">St. Patrick's Day</a>
 
 <h2 id="Cookies">Cookies</h2>
