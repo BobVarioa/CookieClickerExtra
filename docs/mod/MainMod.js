@@ -54,8 +54,8 @@ MainMod.launch = function () {
 		last = CCSE.NewAchievement('M87', 'Reach level <b>10</b> black hole inverters.', [1, 26, iconsURL]);
 		Game.Objects['Black hole inverter'].levelAchiev10 = last; last.order = order + i / 100; i++;
 		*/
-	}
-	Game.customComputeLumpType.push(function () {
+		
+		Game.customComputeLumpType.push(function () {
 		/*
 		Type of lump to be chosen 
 		1 : Bifurcated
@@ -106,6 +106,8 @@ MainMod.launch = function () {
 		if (Game.prefs.popups) Game.Popup(MainMod.name + ' loaded!');
 		else Game.Notify(MainMod.name + ' loaded!', '', '', 1, 1);
 	}
+	}
+	
 
 	if (CCSE.ConfirmGameVersion(MainMod.name, MainMod.version, MainMod.GameVersion)) MainMod.init();
 
