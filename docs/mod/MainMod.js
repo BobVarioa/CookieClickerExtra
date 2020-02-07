@@ -1,7 +1,7 @@
 // Mod
 Game.Win('Third-party');
 if (MainMod === undefined) var MainMod = {};
-if (typeof CCSE == 'undefined') Game.LoadMod('https://raw.githubusercontent.com/masterofbob777cc/CookieClickerExtra/master/MainMod.js');
+if (typeof CCSE == 'undefined') Game.LoadMod('https://klattmose.github.io/CookieClicker/CCSE.js');
 MainMod.name = 'Cookie Clicker Extra';
 MainMod.version = '1.0';
 MainMod.GameVersion = '2.022';
