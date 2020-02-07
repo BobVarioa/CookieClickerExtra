@@ -40,6 +40,7 @@ IDK Cookies <br>
 
 Santa's Leftover Cookie : <br>
 IDK Cookies <br>
+"Looks like Santa left you an extra present! This leftover cookie is oozing magical potential!" <br>
 - Increases Grimoire magic bar regeneration when Christmas season is active. <br>
 
 Mongo Cookie : <br>
@@ -66,21 +67,26 @@ IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
 "Some find it pretty, some don't. Some find it tasty, some don't. I guess, like beauty, taste is in... the tongue.. of the holder!" <br>
 
 Cookie-Chip Chocolate Biscuit : <br>
+"This biscuit is the opposite of a chocolate chip cookie! A great feat, indeed!" <br>
 IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
 
 Skychip Cookie : <br>
 IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
 
 Hardened Milk Cookie : <br>
+"'Hardest Milk Knife in the World'? Please... you can't even eat a knife!"
 IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
 
 Nested Cookie : <br> 
+"A delicious monstrocity that has a tiny cookie within a cookie... And then within another cookie!" <br>
 IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
 
-Dark, Light, Nested Cookie : <br>
+Dark, White, Nested Cookie : <br>
+"A delicious monstrocity that has a tiny dark chocolate cookie within a white chocolate cookie... And then within another cookie!" <br>
 IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
 
 Poppy Cookie : <br>
+"An edible snack to show your respect." <br>
 IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
 
 Finder Surprise Egg : <br>
@@ -101,9 +107,10 @@ IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
 
 Prism Cookies : <br>
 IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
-"Why have prisms that turn light into cookies when you can have prisms that make themselves much more cookier." <br>
+"Why have prisms that turn light into cookies when you can have prisms that make themselves much more cookier?" <br>
 
 Grandma Skull Cookie : <br>
+"Grandma will find these distasteful... But your friends will find them to be funy and tasty!" <br>
 IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
 
 Discookie : <br>
@@ -179,7 +186,7 @@ IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
 Allows you to click twice at once. <br>
 <b>Might have unintended side effects. </b> <br>
 "These cursors are crafted with a pocket sized miniature blackhole, allowing us to creating a tear in space-time. The obvious benefit for these is to click two cookies at once." <br>
-- Allows you to click twice at once (idk what that means yet) 
+- Allows you to click twice at once (idk what that means yet ****note from skully: maybe doubles your clicks and also you can burst wrinklers twice as fast as well, maybe also if there is a golden cookie behind another golden cookie, you can click both at the same time? ****) 
 
 Box of Wrinkler Eggs : (Heavenly Upgrade, From : Eye of the wrinkler, Box of not cookies) <br>
 IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
