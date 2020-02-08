@@ -54,6 +54,7 @@ IDK Cookies <br>
 <img src="https://masterofbob777cc.github.io/CookieClickerExtra/img/ObserverCookie.png"> <br>
 Observer Cookie : <br>
 IDK Cookies <br>
+"C is for I see you! - grandma" <br>
 
 <img src="https://masterofbob777cc.github.io/CookieClickerExtra/img/KittenCookie.png"> <br>
 Kitten Cookie : <br>
