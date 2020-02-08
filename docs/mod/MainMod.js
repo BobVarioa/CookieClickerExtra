@@ -8,7 +8,7 @@ MainMod.GameVersion = '2.022';
 
 MainMod.launch = function () {
 	MainMod.init = function () {
-		var iconsURL = 'https://raw.githubusercontent.com/masterofbob777cc/CookieClickerExtra/master/CookieClickerMod.png';
+		var iconsURL = 'https://masterofbob777cc.github.io/CookieClickerExtra/mod/CookieClickerMod.png';
 		// Upgrades
 		MainMod.Upgrades = [];
 		var orderadder = 10030.126 + 1 / 1000;
@@ -66,18 +66,19 @@ MainMod.launch = function () {
 		Game.customStatsMenu.push(function () {
 			CCSE.AppendStatsVersionNumber(MainMod.name, MainMod.version);
 		});
+		// Finish up
+		MainMod.isLoaded = 1;
+		if (MainMod.postloadHooks) {
+			for (var i = 0; i < MainMod.postloadHooks.length; ++i) MainMod.postloadHooks[i]();
+		}
+		if (Game.prefs.popups) 
+		{
+			Game.Popup(MainMod.name + ' loaded!'); 
+		} else {
+			Game.Notify(MainMod.name + ' loaded!', '', '', 1, 1);
+		}
 	}
-	// Finish up
-	MainMod.isLoaded = 1;
-	if (MainMod.postloadHooks) {
-		for (var i = 0; i < MainMod.postloadHooks.length; ++i) MainMod.postloadHooks[i]();
-	}
-	if (Game.prefs.popups) 
-	{
-		Game.Popup(MainMod.name + ' loaded!'); 
-	} else {
-		Game.Notify(MainMod.name + ' loaded!', '', '', 1, 1);
-	}
+	if(CCSE.ConfirmGameVersion(AmericanSeason.name, AmericanSeason.version, AmericanSeason.GameVersion)) AmericanSeason.init();
 }
 
 if (!MainMod.isLoaded) {
