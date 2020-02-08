@@ -10,26 +10,20 @@ MainMod.launch = function () {
 	MainMod.init = function () {
 		var iconsURL = 'https://raw.githubusercontent.com/masterofbob777cc/CookieClickerExtra/master/CookieClickerMod.png';
 		// Upgrades
-		var last;
-		var order = Game.Upgrades["Loreols"].order + 1 / 1000;
-		var upPrice  = 999999999999;
-		var upPrice2 = 99999999999999;
-		Game.NewUpgradeCookie({
-			name:'Birthday Cake Loreo',
-			desc:'Cookie production multiplier <b>+1%</b> for every year Cookie Clicker has existed (currently : <b>+' + Beautify(Math.floor((Date.now()-new Date(2013,7,8))/(1000*60*60*24*365))) + '%</b>).<br><q>Placeholder Text</q>',
-			icon:[10, 12, iconsURL],
-			require:'Box of brand biscuits',
-			power: Beautify(Math.floor((Date.now()-new Date(2013,7,8))/(1000*60*60*24*365))),
-			price: 999999999999999*5
-			}); 
-		Game.NewUpgradeCookie({
-			name:'Mint Loreo',
-			desc:'Placeholder Text',
-			icon:[10, 13, iconsURL],
-			require:'Box of brand biscuits',
-			power: 2,
-			price: 999999999999999*5
-			}); 
+		MainMod.Upgrades = [];
+		var orderadder = 10030.126 + 1 / 1000;
+		MainMod.Upgrades.push(CCSE.NewUpgrade("Birthday Cake Loreo",'Cookie production multiplier <b>+1%</b> for every year Cookie Clicker has existed (currently : <b>+' + Beautify(Math.floor((Date.now()-new Date(2013,7,8))/(1000*60*60*24*365))) + '%</b>).<br><q>Placeholder Text</q>',999999999999999*5,[10, 12, iconsURL]));
+		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = Beautify(Math.floor((Date.now()-new Date(2013,7,8))/(1000*60*60*24*365)));
+		MainMod.Upgrades[MainMod.Upgrades.length - 1].requires = 'Box of brand biscuits';
+		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookies';
+		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
+		
+		MainMod.Upgrades.push(CCSE.NewUpgrade("Mint Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[10, 13, iconsURL]));
+		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = 2;
+		MainMod.Upgrades[MainMod.Upgrades.length - 1].requires = 'Box of brand biscuits';
+		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookies';
+		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
+		
 		/*
 		Game.customComputeLumpType.push(function () {
 		
