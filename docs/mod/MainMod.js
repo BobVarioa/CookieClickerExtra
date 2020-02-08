@@ -78,7 +78,7 @@ MainMod.launch = function () {
 			Game.Notify(MainMod.name + ' loaded!', '', '', 1, 1);
 		}
 	}
-	if(CCSE.ConfirmGameVersion(AmericanSeason.name, AmericanSeason.version, AmericanSeason.GameVersion)) AmericanSeason.init();
+	if(CCSE.ConfirmGameVersion(MainMod.name, MainMod.version, MainMod.GameVersion)) MainMod.init();
 }
 
 if (!MainMod.isLoaded) {
