@@ -15,13 +15,13 @@ MainMod.launch = function () {
 		MainMod.Upgrades.push(CCSE.NewUpgrade("Birthday Cake Loreo",'Cookie production multiplier <b>+1%</b> for every year Cookie Clicker has existed (currently : <b>+' + Beautify(Math.floor((Date.now()-new Date(2013,7,8))/(1000*60*60*24*365))) + '%</b>).<br><q>Placeholder Text</q>',999999999999999*5,[10, 12, iconsURL]));
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = Beautify(Math.floor((Date.now()-new Date(2013,7,8))/(1000*60*60*24*365)));
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].requires = 'Box of brand biscuits';
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookies';
+		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
 		
 		MainMod.Upgrades.push(CCSE.NewUpgrade("Mint Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[10, 13, iconsURL]));
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = 2;
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].requires = 'Box of brand biscuits';
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookies';
+		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
 		
 		/*
