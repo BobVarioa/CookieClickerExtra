@@ -12,84 +12,84 @@ MainMod.launch = function () {
 		// Upgrades
 		MainMod.Upgrades = [];
 		var orderadder = 1 / 1000;
-		MainMod.Upgrades.push(CCSE.NewUpgrade("Birthday Cake Loreo",'Cookie production multiplier <b>+1%</b> for every year Cookie Clicker has existed (currently : <b>+' + Beautify(Math.floor((Date.now()-new Date(2013,7,8))/(1000*60*60*24*365))) + '%</b>).<br><q>Placeholder Text</q>',999999999999999*5,[10, 12, iconsURL]));
+		MainMod.Upgrades.push(CCSE.NewUpgrade("Birthday Cake Loreo",'Cookie production multiplier <b>+1%</b> for every year Cookie Clicker has existed (currently : <b>+' + Beautify(Math.floor((Date.now()-new Date(2013,7,8))/(1000*60*60*24*365))) + '%</b>).<br><q>Placeholder Text</q>',999999999999999*5,[12, 10, iconsURL]));
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = Math.floor((Date.now()-new Date(2013,7,8))/(1000*60*60*24*365));
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].require = 'Box of brand biscuits';
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
 		Game.cookieUpgrades.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
 		
-		MainMod.Upgrades.push(CCSE.NewUpgrade("Mint Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[10, 13, iconsURL]));
+		MainMod.Upgrades.push(CCSE.NewUpgrade("Mint Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[13, 10, iconsURL]));
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = 2;
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].require = 'Box of brand biscuits';
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
 		Game.cookieUpgrades.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
 		
-		MainMod.Upgrades.push(CCSE.NewUpgrade("Chocolate Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[10, 14, iconsURL]));
+		MainMod.Upgrades.push(CCSE.NewUpgrade("Chocolate Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[14, 10, iconsURL]));
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = 2;
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].require = 'Box of brand biscuits';
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
 		Game.cookieUpgrades.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
 		
-		MainMod.Upgrades.push(CCSE.NewUpgrade("Peanut Butter Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[10, 15, iconsURL]));
+		MainMod.Upgrades.push(CCSE.NewUpgrade("Peanut Butter Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[15, 10, iconsURL]));
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = 2;
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].require = 'Box of brand biscuits';
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
 		Game.cookieUpgrades.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
 		
-		MainMod.Upgrades.push(CCSE.NewUpgrade("Red Velvet Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[10, 16, iconsURL]));
+		MainMod.Upgrades.push(CCSE.NewUpgrade("Red Velvet Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[16, 10, iconsURL]));
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = 2;
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].require = 'Box of brand biscuits';
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
 		Game.cookieUpgrades.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
 		
-		MainMod.Upgrades.push(CCSE.NewUpgrade("Peanut Butter Chocolate Pie Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[10, 17, iconsURL]));
+		MainMod.Upgrades.push(CCSE.NewUpgrade("Peanut Butter Chocolate Pie Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[17, 10, iconsURL]));
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = 2;
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].require = 'Box of brand biscuits';
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
 		Game.cookieUpgrades.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
 		
-		MainMod.Upgrades.push(CCSE.NewUpgrade("Spring Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[11, 12, iconsURL]));
+		MainMod.Upgrades.push(CCSE.NewUpgrade("Spring Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[12, 11, iconsURL]));
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = 2;
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].require = 'Box of brand biscuits';
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
 		Game.cookieUpgrades.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
 		
-		MainMod.Upgrades.push(CCSE.NewUpgrade("Dark Chocolate Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[11, 13, iconsURL]));
+		MainMod.Upgrades.push(CCSE.NewUpgrade("Dark Chocolate Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[13, 11, iconsURL]));
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = 2;
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].require = 'Box of brand biscuits';
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
 		Game.cookieUpgrades.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
 		
-		MainMod.Upgrades.push(CCSE.NewUpgrade("Carrot Cake Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[11, 14, iconsURL]));
+		MainMod.Upgrades.push(CCSE.NewUpgrade("Carrot Cake Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[14, 11, iconsURL]));
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = 2;
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].require = 'Box of brand biscuits';
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
 		Game.cookieUpgrades.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
 		
-		MainMod.Upgrades.push(CCSE.NewUpgrade("Golden Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[11, 15, iconsURL]));
+		MainMod.Upgrades.push(CCSE.NewUpgrade("Golden Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[15, 11, iconsURL]));
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = 2;
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].require = 'Box of brand biscuits';
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
 		Game.cookieUpgrades.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
 		
-		MainMod.Upgrades.push(CCSE.NewUpgrade("Lemon Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[11, 16, iconsURL]));
+		MainMod.Upgrades.push(CCSE.NewUpgrade("Lemon Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[16, 11, iconsURL]));
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = 2;
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].require = 'Box of brand biscuits';
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
 		Game.cookieUpgrades.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
 		
-		MainMod.Upgrades.push(CCSE.NewUpgrade("Cinnamon Bun Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[11, 17, iconsURL]));
+		MainMod.Upgrades.push(CCSE.NewUpgrade("Cinnamon Bun Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[17, 11, iconsURL]));
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = 2;
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].require = 'Box of brand biscuits';
 		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
