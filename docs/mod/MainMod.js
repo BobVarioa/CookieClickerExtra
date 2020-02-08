@@ -7,7 +7,7 @@ MainMod.version = '1.0';
 MainMod.GameVersion = '2.022';
 
 MainMod.launch = function () {
-	MainMod.init = function () {
+	var Init = function Init() {
 		var iconsURL = 'https://raw.githubusercontent.com/masterofbob777cc/CookieClickerExtra/master/CookieClickerMod.png';
 		// Upgrades
 		var last;
@@ -86,7 +86,7 @@ MainMod.launch = function () {
 	}
 }
 	
-if (CCSE.ConfirmGameVersion(MainMod.name, MainMod.version, MainMod.GameVersion)) MainMod.init();
+if (CCSE.ConfirmGameVersion(MainMod.name, MainMod.version, MainMod.GameVersion)) Init();
 
 
 if (!MainMod.isLoaded) {
