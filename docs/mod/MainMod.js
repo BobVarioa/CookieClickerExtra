@@ -10,24 +10,29 @@ MainMod.launch = function () {
 	MainMod.init = function () {
 		var iconsURL = 'https://raw.githubusercontent.com/masterofbob777cc/CookieClickerExtra/master/CookieClickerMod.png';
 		// Upgrades
-		MainMod.upgrades = [];
-		MainMod.fireworkTypes = [];
-		MainMod.shimmerModifiers = [];
-		
 		var last;
 		var order = Game.Upgrades["Loreols"].order + 1 / 1000;
 		var upPrice  = 999999999999;
 		var upPrice2 = 99999999999999;
-		
-		last = CCSE.NewUpgrade('Birthday Cake Loreo', '	Cookie production multiplier <b>+1%</b> for every year Cookie Clicker has existed (currently : <b>+' +Beautify(Math.floor((Date.now()-new Date(2013,7,8))/(1000*60*60*24*365))) + '%</b>).<br><q>Placeholder Text</q>', 999999999999999*5, [11, 13, iconsURL]); 
-		
-		for(var i in MainMod.upgrades){
-			var me = Game.Upgrades[MainMod.upgrades[i]];
-			me.order = order + i / 1000;
-		}
+		last = Game.NewUpgradeCookie({
+			name:'Birthday Cake Loreo',
+			desc:'Cookie production multiplier <b>+1%</b> for every year Cookie Clicker has existed (currently : <b>+' + Beautify(Math.floor((Date.now()-new Date(2013,7,8))/(1000*60*60*24*365))) + '%</b>).<br><q>Placeholder Text</q>',
+			icon:[10, 12, iconsURL],
+			require:'Box of brand biscuits',
+			power: Beautify(Math.floor((Date.now()-new Date(2013,7,8))/(1000*60*60*24*365))),
+			price: 999999999999999*5
+			}); last.order = order + 1 / 1000;
+		last = Game.NewUpgradeCookie({
+			name:'Mint Loreo',
+			desc:'Placeholder Text',
+			icon:[10, 13, iconsURL],
+			require:'Box of brand biscuits',
+			power: 2,
+			price: 999999999999999*5
+			}); last.order = order + 1 / 1000;
 		/*
 		Game.customComputeLumpType.push(function () {
-		/*
+		
 		Type of lump to be chosen 
 		1 : Bifurcated
 		2 : Golden
