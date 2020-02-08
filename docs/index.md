@@ -59,143 +59,143 @@ Rainbow Chips : <br>
 IDK Cookies <br>
 
 Mintnight Cookie : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies <br>
 "So dark... but the chips shine so brightly." <br>
 
 Abstract Art Biscuit : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 "Some find it pretty, some don't. Some find it tasty, some don't. I guess, like beauty, taste is in... the tongue.. of the holder!" <br>
 
 Cookie-Chip Chocolate Biscuit : <br>
 "This biscuit is the opposite of a chocolate chip cookie! A great feat, indeed!" <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 
 Skychip Cookie : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 
 Hardened Milk Cookie : <br>
-"'Hardest Milk Knife in the World'? Please... you can't even eat a knife!"
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+"Hardest Milk Knife in the World'? Please... you can't even eat a knife!" <br>
+IDK Cookies <br>
 
 Nested Cookie : <br> 
 "A delicious monstrocity that has a tiny cookie within a cookie... And then within another cookie!" <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 
 Dark, White, Nested Cookie : <br>
 "A delicious monstrocity that has a tiny dark chocolate cookie within a white chocolate cookie... And then within another cookie!" <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 
 Poppy Cookie : <br>
 "An edible snack to show your respect." <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 
 Finder Surprise Egg : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 
 DadHurry! Creme Egg : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 
 Plant Fiber Heart Biscuit : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 "One day this will bloom into a beautiful red heart with a white tail, quite popular among the ladies." <br>
 
 <3 Heart Biscuit : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 
 Honey Heart Biscuit : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 
 Prism Cookies : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 "Why have prisms that turn light into cookies when you can have prisms that make themselves much more cookier?" <br>
 
 Grandma Skull Cookie : <br>
 "Grandma will find these distasteful... But your friends will find them to be funy and tasty!" <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 
 Discookie : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 Gives 1 cps per member of the <b>Offical Dashnet Discord Server</b>. <br>
 Placeholder <br>
 - +30,000 ish cps
 
 Gem Cookie : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 
 Eclipse Cookie : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 Makes Robotics upgrades drop more frequent. <br>
 
 Iron-Nano Cookie : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 
 <h3 id="Loreos"> Loreos </h3>
 
 Birthday Cake Loreo : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 - +X% cps, X being birthday of cookie clicker <br>
 
 Mint Loreo : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 - +2% cps
 
 Chocolate Loreo : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 - +2% cps
 
 Peanut Butter Loreo : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 - +2% cps
 
 Red Velvet Loreo : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 - +2% cps
 
 Peanut Butter Chocolate Pie Loreo : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 - +2% cps
 
 Spring Loreo : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 - +2% cps
 
 Dark Chocolate Loreo : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 - +2% cps
 
 Carrot Cake Loreo : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 - +2% cps
 
 Golden Loreo : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 - +2% cps
 
 Lemon Loreo : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 - +2% cps
 
 Cinnamon Bun Loreo : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 - +2% cps
 
 <h3 id="MiscUpgrades"> Misc. Upgrades </h3>
 
 Transdimentional Clicking : <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies / Heavenly Chips<br>
 Allows you to click twice at once. <br>
 <b>Might have unintended side effects. </b> <br>
 "These cursors are crafted with a pocket sized miniature blackhole, allowing us to creating a tear in space-time. The obvious benefit for these is to click two cookies at once." <br>
-- Allows you to click twice at once (idk what that means yet ****note from skully: maybe doubles your clicks and also you can burst wrinklers twice as fast as well, maybe also if there is a golden cookie behind another golden cookie, you can click both at the same time? ****) 
+- Allows you to click twice at once (idk what that means yet Note from Skully: maybe doubles your clicks and also you can burst wrinklers twice as fast as well, maybe also if there is a golden cookie behind another golden cookie, you can click both at the same time? ) 
 
 Box of Wrinkler Eggs : (Heavenly Upgrade, From : Eye of the wrinkler, Box of not cookies) <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies / Heavenly Chips<br>
 Contains new forms of wrinklers. <br>
 "Not sure what these wrinklers eggs are, but they probably look cool next to my giant collection of shiny ones." <br>
 - Unlocks New Wrinkler Upgrades 
 
 Super Portals : (Unlocked at 500 Portals) <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 Allows you to send kittens on expeditions to retrieve goodies. <br>
 "That is one BIG portal." <br>
 - Shows up near Krumblor / Santa, Allows you to be able to send kittens on expeditions which will be able to retrieve cookies and lumps
@@ -208,7 +208,7 @@ Not sure where that goes, don't want to find out. Send a kitten. <br>
 - Kitten's sent on these expeditions will be able to collect mass amounts of dark matter 
 
 Dark Pledge : (Researched after ascending after the Grandmapocalypse and after pledging at least once) <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 Will stop the grandma's wrath, but at what cost? <br>
 - Reduces grandma cps to 0 but in turn increases all other bonuses by 1% 
 - Sugar lumps wont coalesce, instead dark matter will form 
@@ -218,7 +218,7 @@ Dark Matter <br>
 - A new resource that will be used for speeding up time by 1 second per dark matter used (Requires Dark Timepiece)
 
 Dark Timepiece (Sprites not finished) : (Unlocked at 500 (T1), 550 (T2), 600 (T3) Time Machines) <br>
-IDK Cookies / Heavenly Chips / Sugar Lumps / Dark Matter <br>
+IDK Cookies<br>
 Dark Matter : "X" <br>
 Speeds up time by (10 seconds (T1), 1 minute (T2), 1 hour (T3)) <br>
 "Time spins around and around, so why not give it a little push?" <br>
