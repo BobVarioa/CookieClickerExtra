@@ -1,5 +1,5 @@
 ***
-![Mod Banner](https://raw.githubusercontent.com/masterofbob777cc/CookieClickerExtra/master/CookieClickerModBanner.png)
+<img src="https://masterofbob777cc.github.io/CookieClickerExtra/img/CookieClickerModBanner.png"> <br>
 
 Welcome to the Cookie Clicker Extra wiki!
 
