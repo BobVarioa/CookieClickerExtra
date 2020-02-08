@@ -19,10 +19,10 @@ MainMod.launch = function () {
 		var upPrice  = 999999999999;
 		var upPrice2 = 99999999999999;
 		
-		last = CCSE.NewUpgrade('Birthday Cake Loreo', '	Cookie production multiplier <b>+1%</b> for every year Cookie Clicker has existed (currently : <b>+' +Beautify(Math.floor((Date.now()-new Date(2013,7,8))/(1000*60*60*24*365))); + '%</b>).<br><q>Placeholder Text</q>', 999999999999999*5, [11, 13, iconsURL]); 
+		last = CCSE.NewUpgrade('Birthday Cake Loreo', '	Cookie production multiplier <b>+1%</b> for every year Cookie Clicker has existed (currently : <b>+' +Beautify(Math.floor((Date.now()-new Date(2013,7,8))/(1000*60*60*24*365))) + '%</b>).<br><q>Placeholder Text</q>', 999999999999999*5, [11, 13, iconsURL]); 
 		
 		for(var i in MainMod.upgrades){
-			var me = Game.Upgrades[AmericanSeason.upgrades[i]];
+			var me = Game.Upgrades[MainMod.upgrades[i]];
 			me.order = order + i / 1000;
 		}
 		/*
