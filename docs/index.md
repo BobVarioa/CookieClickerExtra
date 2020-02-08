@@ -3,13 +3,21 @@
 
 Welcome to the Cookie Clicker Extra wiki!
 
-This mod currently adds nothing to the base game. 
+A cookie clicker mod that is trying to expand apon the content of the base game. 
 
-It will add : 
-* New Variations of Sugar Lumps
-* Many new Upgrades
-* A few new achievements 
-* Something else probably 
+This mod currently only adds a few cookies to the base game but it will add: <br>
+- New Variations of Sugar Lumps
+- Many new upgrades, Including:
+  - New Kittens
+  - New flavors of Loreos
+  - New Portal themed upgrades
+  - Misc. flavored cookies
+- A few new achievements 
+- A new season, St Patrick's Day 
+
+Created by :
+- TheSkullyKO (Mistow OwO#0245) - Sprites and Ideas 
+- Bob (MasterOfBob777#8346) - Programming and a few ideas
 
 # Table of Contents : 
 * <a href="#Cookies">Cookies</a>
