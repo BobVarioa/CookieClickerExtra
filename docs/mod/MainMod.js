@@ -34,7 +34,9 @@ MainMod.launch = function () {
 			{
 				Game.cookieUpgrades.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
 			}
-			if (obj.unlockAt === undefined) true else {
+			if (obj.unlockAt === undefined) {
+			
+			} else {
 				MainMod.Upgrades[MainMod.Upgrades.length - 1].unlockAt = {cookies: obj.unlockAt.cookies, name: obj.name, require: obj.unlockAt.require === undefined  ? '' : obj.unlockAt.require};
 				Game.UnlockAt.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
 			}
