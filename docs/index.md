@@ -27,6 +27,7 @@ It will add :
 
 <h3 id="FlavoredCookies">Flavored Cookies</h3>
 
+<img src="/img/RGBCookie.png">
 RGB Cookie : <br>
 IDK Cookies <br>
 "Chalk-full of light channels connected to some RGB lights. This cookie changes both colour, and flavour... probably?"<br>
