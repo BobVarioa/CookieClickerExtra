@@ -11,90 +11,177 @@ MainMod.launch = function () {
 		var iconsURL = 'https://masterofbob777cc.github.io/CookieClickerExtra/mod/CookieClickerMod.png';
 		// Upgrades
 		MainMod.Upgrades = [];
-		var orderadder = 1 / 1000;
-		MainMod.Upgrades.push(CCSE.NewUpgrade("Birthday Cake Loreo",'Cookie production multiplier <b>+1%</b> for every year Cookie Clicker has existed (currently : <b>+' + Beautify(Math.floor((Date.now()-new Date(2013,7,8))/(1000*60*60*24*365))) + '%</b>).<br><q>Placeholder Text</q>',999999999999999*5,[10, 12, iconsURL]));
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = Math.floor((Date.now()-new Date(2013,7,8))/(1000*60*60*24*365));
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].unlockAt = {cookies: 249999999999999.75, name: "Birthday Cake Loreo", require: "Box of brand biscuits"};
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
-		Game.cookieUpgrades.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
+		var LoreoOrder = 10030.126 + 1 / 1000;
+		MainMod.NewUpgrade = function(obj) {
+			/*
+			name : string
+			desc : string
+			pool : can be '', 'cookie', 'toggle', 'debug', 'prestige', 'prestigeDecor', 'tech', or 'unused'
+			price : int
+			power : int
+			unlockAt : obj : optional
+				cookies : int
+				require : string : optional 
+			iconx : int
+			icony : int
+			startOrder : int
+			*/
+			MainMod.Upgrades.push(CCSE.NewUpgrade(obj.name,obj.desc,obj.price,[obj.iconx, obj.icony, iconsURL]));
+			MainMod.Upgrades[MainMod.Upgrades.length - 1].power = obj.power;
+			MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = obj.pool;
+			MainMod.Upgrades[MainMod.Upgrades.length - 1].order = obj.startOrder;
+			if (obj.pool == 'cookie') 
+			{
+				Game.cookieUpgrades.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
+			}
+			if (obj.unlockAt === undefined) true else {
+				MainMod.Upgrades[MainMod.Upgrades.length - 1].unlockAt = {cookies: obj.unlockAt.cookies, name: obj.name, require: obj.unlockAt.require === undefined  ? '' : obj.unlockAt.require};
+				Game.UnlockAt.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
+			}
+		}
+		MainMod.NewUpgrade({
+			name : "Birthday Cake Loreo",
+			desc : "Cookie production multiplier <b>+1%</b> for every year Cookie Clicker has existed (currently : <b>+" + Beautify(Math.floor((Date.now()-new Date(2013,7,8))/(1000*60*60*24*365))) + "%</b>).<br><q>Placeholder Text</q>",
+			pool : "cookie",
+			price : 999999999999999*5,
+			power : Math.floor((Date.now()-new Date(2013,7,8))/(1000*60*60*24*365)),
+			unlockAt : { cookies : 249999999999999.75, require : "Box of brand biscuits" },
+			iconx : 10,
+			icony : 12,
+			startOrder : LoreoOrder
+		}); LoreoOrder+=1/1000;
 		
-		MainMod.Upgrades.push(CCSE.NewUpgrade("Mint Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[11, 12, iconsURL]));
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = 2;
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].unlockAt = {cookies: 249999999999999.75, name: "Mint Loreo", require: "Box of brand biscuits"};
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
-		Game.cookieUpgrades.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
+		MainMod.NewUpgrade({
+			name : "Mint Loreo",
+			desc : "Placeholder Text.<br><q>Placeholder Text</q>",
+			pool : "cookie",
+			price : 999999999999999*5,
+			power : 2,
+			unlockAt : { cookies : 249999999999999.75, require : "Box of brand biscuits" },
+			iconx : 11,
+			icony : 12,
+			startOrder : LoreoOrder
+		}); LoreoOrder+=1/1000;
 		
-		MainMod.Upgrades.push(CCSE.NewUpgrade("Chocolate Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[12, 12, iconsURL]));
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = 2;
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].unlockAt = {cookies: 249999999999999.75, name: "Chocolate Loreo", require: "Box of brand biscuits"};
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
-		Game.cookieUpgrades.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
+		MainMod.NewUpgrade({
+			name : "Chocolate Loreo",
+			desc : "Placeholder Text.<br><q>Placeholder Text</q>",
+			pool : "cookie",
+			price : 999999999999999*5,
+			power : 2,
+			unlockAt : { cookies : 249999999999999.75, require : "Box of brand biscuits" },
+			iconx : 12,
+			icony : 12,
+			startOrder : LoreoOrder
+		}); LoreoOrder+=1/1000;
 		
-		MainMod.Upgrades.push(CCSE.NewUpgrade("Peanut Butter Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[13, 12, iconsURL]));
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = 2;
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].unlockAt = {cookies: 249999999999999.75, name: "Peanut Butter Loreo", require: "Box of brand biscuits"};
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
-		Game.cookieUpgrades.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
+		MainMod.NewUpgrade({
+			name : "Peanut Butter Loreo",
+			desc : "Placeholder Text.<br><q>Placeholder Text</q>",
+			pool : "cookie",
+			price : 999999999999999*5,
+			power : 2,
+			unlockAt : { cookies : 249999999999999.75, require : "Box of brand biscuits" },
+			iconx : 13,
+			icony : 12,
+			startOrder : LoreoOrder
+		}); LoreoOrder+=1/1000;
 		
-		MainMod.Upgrades.push(CCSE.NewUpgrade("Red Velvet Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[14, 12, iconsURL]));
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = 2;
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].unlockAt = {cookies: 249999999999999.75, name: "Red Velvet Loreo", require: "Box of brand biscuits"};
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
-		Game.cookieUpgrades.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
+		MainMod.NewUpgrade({
+			name : "Red Velvet Loreo",
+			desc : "Placeholder Text.<br><q>Placeholder Text</q>",
+			pool : "cookie",
+			price : 999999999999999*5,
+			power : 2,
+			unlockAt : { cookies : 249999999999999.75, require : "Box of brand biscuits" },
+			iconx : 14,
+			icony : 12,
+			startOrder : LoreoOrder
+		}); LoreoOrder+=1/1000;
 		
-		MainMod.Upgrades.push(CCSE.NewUpgrade("Peanut Butter Chocolate Pie Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[15, 12, iconsURL]));
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = 2;
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].unlockAt = {cookies: 249999999999999.75, name: "Peanut Butter Chocolate Pie Loreo", require: "Box of brand biscuits"};
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
-		Game.cookieUpgrades.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
+		MainMod.NewUpgrade({
+			name : "Peanut Butter Chocolate Pie Loreo",
+			desc : "Placeholder Text.<br><q>Placeholder Text</q>",
+			pool : "cookie",
+			price : 999999999999999*5,
+			power : 2,
+			unlockAt : { cookies : 249999999999999.75, require : "Box of brand biscuits" },
+			iconx : 15,
+			icony : 12,
+			startOrder : LoreoOrder
+		}); LoreoOrder+=1/1000;
 		
-		MainMod.Upgrades.push(CCSE.NewUpgrade("Spring Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[10, 13, iconsURL]));
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = 2;
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].unlockAt = {cookies: 249999999999999.75, name: "Spring Loreo", require: "Box of brand biscuits"};
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
-		Game.cookieUpgrades.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
+		MainMod.NewUpgrade({
+			name : "Spring Loreo",
+			desc : "Placeholder Text.<br><q>Placeholder Text</q>",
+			pool : "cookie",
+			price : 999999999999999*5,
+			power : 2,
+			unlockAt : { cookies : 249999999999999.75, require : "Box of brand biscuits" },
+			iconx : 10,
+			icony : 13,
+			startOrder : LoreoOrder
+		}); LoreoOrder+=1/1000;
 		
-		MainMod.Upgrades.push(CCSE.NewUpgrade("Dark Chocolate Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[11, 13, iconsURL]));
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = 2;
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].unlockAt = {cookies: 249999999999999.75, name: "Dark Chocolate Loreo", require: "Box of brand biscuits"};
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
-		Game.cookieUpgrades.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
+		MainMod.NewUpgrade({
+			name : "Dark Chocolate Loreo",
+			desc : "Placeholder Text.<br><q>Placeholder Text</q>",
+			pool : "cookie",
+			price : 999999999999999*5,
+			power : 2,
+			unlockAt : { cookies : 249999999999999.75, require : "Box of brand biscuits" },
+			iconx : 11,
+			icony : 13,
+			startOrder : LoreoOrder
+		}); LoreoOrder+=1/1000;
 		
-		MainMod.Upgrades.push(CCSE.NewUpgrade("Carrot Cake Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[12, 13, iconsURL]));
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = 2;
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].unlockAt = {cookies: 249999999999999.75, name: "Carrot Cake Loreo", require: "Box of brand biscuits"};
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
-		Game.cookieUpgrades.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
+		MainMod.NewUpgrade({
+			name : "Carrot Cake Loreo",
+			desc : "Placeholder Text.<br><q>Placeholder Text</q>",
+			pool : "cookie",
+			price : 999999999999999*5,
+			power : 2,
+			unlockAt : { cookies : 249999999999999.75, require : "Box of brand biscuits" },
+			iconx : 12,
+			icony : 13,
+			startOrder : LoreoOrder
+		}); LoreoOrder+=1/1000;
 		
-		MainMod.Upgrades.push(CCSE.NewUpgrade("Golden Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[13, 13, iconsURL]));
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = 2;
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].unlockAt = {cookies: 249999999999999.75, name: "Golden Loreo", require: "Box of brand biscuits"};
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
-		Game.cookieUpgrades.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
+		MainMod.NewUpgrade({
+			name : "Golden Loreo",
+			desc : "Placeholder Text.<br><q>Placeholder Text</q>",
+			pool : "cookie",
+			price : 999999999999999*5,
+			power : 2,
+			unlockAt : { cookies : 249999999999999.75, require : "Box of brand biscuits" },
+			iconx : 13,
+			icony : 13,
+			startOrder : LoreoOrder
+		}); LoreoOrder+=1/1000;
 		
-		MainMod.Upgrades.push(CCSE.NewUpgrade("Lemon Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[14, 13, iconsURL]));
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = 2;
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].unlockAt = {cookies: 249999999999999.75, name: "Lemon Loreo", require: "Box of brand biscuits"};
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
-		Game.cookieUpgrades.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
+		MainMod.NewUpgrade({
+			name : "Lemon Loreo",
+			desc : "Placeholder Text.<br><q>Placeholder Text</q>",
+			pool : "cookie",
+			price : 999999999999999*5,
+			power : 2,
+			unlockAt : { cookies : 249999999999999.75, require : "Box of brand biscuits" },
+			iconx : 14,
+			icony : 13,
+			startOrder : LoreoOrder
+		}); LoreoOrder+=1/1000;
 		
-		MainMod.Upgrades.push(CCSE.NewUpgrade("Cinnamon Bun Loreo",'Placeholder Text.<br><q>Placeholder Text</q>',999999999999999*5,[15, 13, iconsURL]));
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].power = 2;
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].unlockAt = {cookies: 249999999999999.75, name: "Cinnamon Bun Loreo", require: "Box of brand biscuits"};
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].pool = 'cookie';
-		MainMod.Upgrades[MainMod.Upgrades.length - 1].order = 10030.126 + orderadder; orderadder+=1/1000;
-		Game.cookieUpgrades.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
+		MainMod.NewUpgrade({
+			name : "Cinnamon Bun Loreo",
+			desc : "Placeholder Text.<br><q>Placeholder Text</q>",
+			pool : "cookie",
+			price : 999999999999999*5,
+			power : 2,
+			unlockAt : { cookies : 249999999999999.75, require : "Box of brand biscuits" },
+			iconx : 15,
+			icony : 13,
+			startOrder : LoreoOrder
+		}); LoreoOrder+=1/1000;
 		
 		
 		/*
