@@ -9,7 +9,7 @@ This mod currently only adds a few cookies to the base game but it will add: <br
 - New Variations of Sugar Lumps
 - Many new upgrades, Including:
   - New Kittens
-  - New flavors of Loreos
+  - New flavors of Loreols
   - New Portal themed upgrades
   - Misc. flavored cookies
 - A few new achievements 
@@ -22,7 +22,7 @@ Created by :
 # Table of Contents : 
 * <a href="#Cookies">Cookies</a>
   * <a href="#FlavoredCookies">Flavored Cookies</a>
-  * <a href="#Loreos">Loreos</a>
+  * <a href="#Loreols">Loreols</a>
 * <a href="#MiscUpgrades">Misc. Upgrades</a>
 * <a href="#Kittens">Kittens</a>
 * <a href="#Wrinklers">Wrinklers</a>
@@ -166,65 +166,65 @@ Makes Robotics upgrades drop more frequent. <br>
 Iron-Nano Cookie : <br>
 IDK Cookies<br>
 
-<h3 id="Loreos"> Loreos </h3>
+<h3 id="Loreols"> Loreols </h3>
 
 <img src="https://masterofbob777cc.github.io/CookieClickerExtra/img/BirthdayCakeLoreo.png"> <br>
-Birthday Cake Loreo : <br>
+Birthday Cake Loreols : <br>
 IDK Cookies<br>
 - +X% cps, X being birthday of cookie clicker <br>
 
 <img src="https://masterofbob777cc.github.io/CookieClickerExtra/img/MintLoreo.png"> <br>
-Mint Loreo : <br>
+Mint Loreols : <br>
 IDK Cookies<br>
 - +2% cps
 
 <img src="https://masterofbob777cc.github.io/CookieClickerExtra/img/ChocolateLoreo.png"> <br>
-Chocolate Loreo : <br>
+Chocolate Loreols : <br>
 IDK Cookies<br>
 - +2% cps
 
 <img src="https://masterofbob777cc.github.io/CookieClickerExtra/img/PeanutButterLoreo.png"> <br>
-Peanut Butter Loreo : <br>
+Peanut Butter Loreols : <br>
 IDK Cookies<br>
 - +2% cps
 
 <img src="https://masterofbob777cc.github.io/CookieClickerExtra/img/RedVelvetLoreo.png"> <br>
-Red Velvet Loreo : <br>
+Red Velvet Loreols : <br>
 IDK Cookies<br>
 - +2% cps
 
 <img src="https://masterofbob777cc.github.io/CookieClickerExtra/img/PeanutButterChocolatePieLoreo.png"> <br>
-Peanut Butter Chocolate Pie Loreo : <br>
+Peanut Butter Chocolate Pie Loreols : <br>
 IDK Cookies<br>
 - +2% cps
 
 <img src="https://masterofbob777cc.github.io/CookieClickerExtra/img/SpringLoreo.png"> <br>
-Spring Loreo : <br>
+Spring Loreols : <br>
 IDK Cookies<br>
 - +2% cps
 
 <img src="https://masterofbob777cc.github.io/CookieClickerExtra/img/DarkChocolateLoreo.png"> <br>
-Dark Chocolate Loreo : <br>
+Dark Chocolate Loreols : <br>
 IDK Cookies<br>
 - +2% cps
 
 <img src="https://masterofbob777cc.github.io/CookieClickerExtra/img/CarrotCakeLoreo.png"> <br>
-Carrot Cake Loreo : <br>
+Carrot Cake Loreols : <br>
 IDK Cookies<br>
 - +2% cps
 
 <img src="https://masterofbob777cc.github.io/CookieClickerExtra/img/GoldenLoreo.png"> <br>
-Golden Loreo : <br>
+Golden Loreols : <br>
 IDK Cookies<br>
 - +2% cps
 
 <img src="https://masterofbob777cc.github.io/CookieClickerExtra/img/LemonLoreo.png"> <br>
-Lemon Loreo : <br>
+Lemon Loreols : <br>
 IDK Cookies<br>
 - +2% cps
 
 <img src="https://masterofbob777cc.github.io/CookieClickerExtra/img/CinnamonBunLoreo.png"> <br>
-Cinnamon Bun Loreo : <br>
+Cinnamon Bun Loreols : <br>
 IDK Cookies<br>
 - +2% cps
 
