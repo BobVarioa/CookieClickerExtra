@@ -8,10 +8,21 @@ MainMod.GameVersion = '2.022';
 
 MainMod.launch = function () {
 	MainMod.init = function () {
-		var iconsURL = 'https://masterofbob777cc.github.io/CookieClickerExtra/mod/CookieClickerMod.png';
-		// Upgrades
+		let iconsURL = 'https://masterofbob777cc.github.io/CookieClickerExtra/mod/CookieClickerMod.png';
+		// Upgrade Arrays
 		MainMod.Upgrades = [];
-		var LoreoOrder = 10030.126 + 1 / 1000;
+		MainMod.HeavenlyUpgrades = [];
+		MainMod.Achievements = [];
+		
+		// Order Vars
+		let LoreolOrder = 10030.126 + 1 / 1000;
+		let LumpAchevementOrder = 21100.396 + 1/1000;
+		
+		// Random Vars
+		let TransMouse = false;
+		let DiscookieCalc = false;
+		
+		// Easier Upgrade / Achievement Functions
 		MainMod.NewUpgrade = function(obj) {
 			/*
 			name : string
@@ -39,8 +50,40 @@ MainMod.launch = function () {
 				Game.UnlockAt.push(MainMod.Upgrades[MainMod.Upgrades.length - 1]);
 			}
 		}
+		
+		MainMod.NewHeavenlyUpgrade = function(obj) {
+			/*
+			name : string
+			desc : string
+			price : int	
+			iconx : int
+			icony : int
+			posx : int
+			posy : int
+			parents : array of string
+			*/
+			MainMod.HeavenlyUpgrades.push(CCSE.NewHeavenlyUpgrade(obj.name, obj.desc, obj.price, [obj.iconx, obj.icony, iconsURL], obj.posx, obj.posy, obj.parents));
+		}
+		
+		MainMod.NewAchievement = function(obj) {
+			/*
+			name : string
+			desc : string
+			iconx : int
+			icony : int
+			startOrder : int
+			*/
+			MainMod.Achievements.push(CCSE.NewAchievement(obj.name, obj.desc, [obj.iconx,obj.icony,iconsURL]));
+			MainMod.Achievements[MainMod.Achievements.length - 1].order = obj.startOrder;
+		}
+		
+		//// Upgrades
+		
+		/// Cookies
+		
+		// Loreols
 		MainMod.NewUpgrade({
-			name : "Birthday Cake Loreo",
+			name : "Birthday Cake Loreols",
 			desc : "Cookie production multiplier <b>+1%</b> for every year Cookie Clicker has existed (currently : <b>+" + Beautify(Math.floor((Date.now()-new Date(2013,7,8))/(1000*60*60*24*365))) + "%</b>).<br><q>Placeholder Text</q>",
 			pool : "cookie",
 			price : 999999999999999*5,
@@ -48,11 +91,11 @@ MainMod.launch = function () {
 			unlockAt : { cookies : 249999999999999.75, require : "Box of brand biscuits" },
 			iconx : 10,
 			icony : 12,
-			startOrder : LoreoOrder
-		}); LoreoOrder+=1/1000;
+			startOrder : LoreolOrder
+		}); LoreolOrder+=1/1000;
 		
 		MainMod.NewUpgrade({
-			name : "Mint Loreo",
+			name : "Mint Loreols",
 			desc : "Placeholder Text.<br><q>Placeholder Text</q>",
 			pool : "cookie",
 			price : 999999999999999*5,
@@ -60,11 +103,11 @@ MainMod.launch = function () {
 			unlockAt : { cookies : 249999999999999.75, require : "Box of brand biscuits" },
 			iconx : 11,
 			icony : 12,
-			startOrder : LoreoOrder
-		}); LoreoOrder+=1/1000;
+			startOrder : LoreolOrder
+		}); LoreolOrder+=1/1000;
 		
 		MainMod.NewUpgrade({
-			name : "Chocolate Loreo",
+			name : "Chocolate Loreols",
 			desc : "Placeholder Text.<br><q>Placeholder Text</q>",
 			pool : "cookie",
 			price : 999999999999999*5,
@@ -72,11 +115,11 @@ MainMod.launch = function () {
 			unlockAt : { cookies : 249999999999999.75, require : "Box of brand biscuits" },
 			iconx : 12,
 			icony : 12,
-			startOrder : LoreoOrder
-		}); LoreoOrder+=1/1000;
+			startOrder : LoreolOrder
+		}); LoreolOrder+=1/1000;
 		
 		MainMod.NewUpgrade({
-			name : "Peanut Butter Loreo",
+			name : "Peanut Butter Loreols",
 			desc : "Placeholder Text.<br><q>Placeholder Text</q>",
 			pool : "cookie",
 			price : 999999999999999*5,
@@ -84,11 +127,11 @@ MainMod.launch = function () {
 			unlockAt : { cookies : 249999999999999.75, require : "Box of brand biscuits" },
 			iconx : 13,
 			icony : 12,
-			startOrder : LoreoOrder
-		}); LoreoOrder+=1/1000;
+			startOrder : LoreolOrder
+		}); LoreolOrder+=1/1000;
 		
 		MainMod.NewUpgrade({
-			name : "Red Velvet Loreo",
+			name : "Red Velvet Loreols",
 			desc : "Placeholder Text.<br><q>Placeholder Text</q>",
 			pool : "cookie",
 			price : 999999999999999*5,
@@ -96,11 +139,11 @@ MainMod.launch = function () {
 			unlockAt : { cookies : 249999999999999.75, require : "Box of brand biscuits" },
 			iconx : 14,
 			icony : 12,
-			startOrder : LoreoOrder
-		}); LoreoOrder+=1/1000;
+			startOrder : LoreolOrder
+		}); LoreolOrder+=1/1000;
 		
 		MainMod.NewUpgrade({
-			name : "Peanut Butter Chocolate Pie Loreo",
+			name : "Peanut Butter Chocolate Pie Loreols",
 			desc : "Placeholder Text.<br><q>Placeholder Text</q>",
 			pool : "cookie",
 			price : 999999999999999*5,
@@ -108,11 +151,11 @@ MainMod.launch = function () {
 			unlockAt : { cookies : 249999999999999.75, require : "Box of brand biscuits" },
 			iconx : 15,
 			icony : 12,
-			startOrder : LoreoOrder
-		}); LoreoOrder+=1/1000;
+			startOrder : LoreolOrder
+		}); LoreolOrder+=1/1000;
 		
 		MainMod.NewUpgrade({
-			name : "Spring Loreo",
+			name : "Spring Loreols",
 			desc : "Placeholder Text.<br><q>Placeholder Text</q>",
 			pool : "cookie",
 			price : 999999999999999*5,
@@ -120,11 +163,11 @@ MainMod.launch = function () {
 			unlockAt : { cookies : 249999999999999.75, require : "Box of brand biscuits" },
 			iconx : 10,
 			icony : 13,
-			startOrder : LoreoOrder
-		}); LoreoOrder+=1/1000;
+			startOrder : LoreolOrder
+		}); LoreolOrder+=1/1000;
 		
 		MainMod.NewUpgrade({
-			name : "Dark Chocolate Loreo",
+			name : "Dark Chocolate Loreols",
 			desc : "Placeholder Text.<br><q>Placeholder Text</q>",
 			pool : "cookie",
 			price : 999999999999999*5,
@@ -132,11 +175,11 @@ MainMod.launch = function () {
 			unlockAt : { cookies : 249999999999999.75, require : "Box of brand biscuits" },
 			iconx : 11,
 			icony : 13,
-			startOrder : LoreoOrder
-		}); LoreoOrder+=1/1000;
+			startOrder : LoreolOrder
+		}); LoreolOrder+=1/1000;
 		
 		MainMod.NewUpgrade({
-			name : "Carrot Cake Loreo",
+			name : "Carrot Cake Loreols",
 			desc : "Placeholder Text.<br><q>Placeholder Text</q>",
 			pool : "cookie",
 			price : 999999999999999*5,
@@ -144,11 +187,11 @@ MainMod.launch = function () {
 			unlockAt : { cookies : 249999999999999.75, require : "Box of brand biscuits" },
 			iconx : 12,
 			icony : 13,
-			startOrder : LoreoOrder
-		}); LoreoOrder+=1/1000;
+			startOrder : LoreolOrder
+		}); LoreolOrder+=1/1000;
 		
 		MainMod.NewUpgrade({
-			name : "Golden Loreo",
+			name : "Golden Loreols",
 			desc : "Placeholder Text.<br><q>Placeholder Text</q>",
 			pool : "cookie",
 			price : 999999999999999*5,
@@ -156,11 +199,11 @@ MainMod.launch = function () {
 			unlockAt : { cookies : 249999999999999.75, require : "Box of brand biscuits" },
 			iconx : 13,
 			icony : 13,
-			startOrder : LoreoOrder
-		}); LoreoOrder+=1/1000;
+			startOrder : LoreolOrder
+		}); LoreolOrder+=1/1000;
 		
 		MainMod.NewUpgrade({
-			name : "Lemon Loreo",
+			name : "Lemon Loreols",
 			desc : "Placeholder Text.<br><q>Placeholder Text</q>",
 			pool : "cookie",
 			price : 999999999999999*5,
@@ -168,11 +211,11 @@ MainMod.launch = function () {
 			unlockAt : { cookies : 249999999999999.75, require : "Box of brand biscuits" },
 			iconx : 14,
 			icony : 13,
-			startOrder : LoreoOrder
-		}); LoreoOrder+=1/1000;
+			startOrder : LoreolOrder
+		}); LoreolOrder+=1/1000;
 		
 		MainMod.NewUpgrade({
-			name : "Cinnamon Bun Loreo",
+			name : "Cinnamon Bun Loreols",
 			desc : "Placeholder Text.<br><q>Placeholder Text</q>",
 			pool : "cookie",
 			price : 999999999999999*5,
@@ -180,9 +223,90 @@ MainMod.launch = function () {
 			unlockAt : { cookies : 249999999999999.75, require : "Box of brand biscuits" },
 			iconx : 15,
 			icony : 13,
-			startOrder : LoreoOrder
-		}); LoreoOrder+=1/1000;
+			startOrder : LoreolOrder
+		}); LoreolOrder+=1/1000;
 		
+		let PortalOrder = 25000.168 + 1/1000;
+		/*MainMod.NewUpgrade({
+			name : "Cinnamon Bun Loreos",
+			desc : "Placeholder Text.<br><q>Placeholder Text</q>",
+			pool : "cookie",
+			price : 1,
+			power : 2,
+			unlockAt : { cookies : 249999999999999.75, require : "Box of brand biscuits" },
+			iconx : 15,
+			icony : 13,
+			startOrder : PortalOrder
+		}); PortalOrder+=1/1000;
+		*/
+		
+		// Misc. Flavored Cookies
+		
+		/// Misc. Upgrades
+		
+		/// Heavenly Upgrades
+		
+		//// Achievements
+		
+		//// Buffs
+		CCSE.NewBuff("Exploring", function(time){
+			return {
+				name: 'Exploring',
+				desc: "Your milk power is halved for " + Game.sayTime(time * Game.fps, -1) + " while some of your kittens are exploring.",
+				icon: [29,14],
+				time: time * Game.fps,
+				add: false,
+				onDie:function(){expl}
+			};
+		}})
+		
+		//// Debug
+		
+		
+		//// Game Logic
+		Game.customLogic.push( 
+			function(){
+				// Transdimentional Mouse
+				if(Game.Has("Transdimentional mouse [on]") && Game.Has("Transdimentional clicking")) 
+				{
+					Game.customMouseCpsMult.push(function(){return 2;});
+					TransMouse = true;
+				} else {
+					if(TransMouse) {Game.customMouseCpsMult = [];}
+					TransMouse = false;
+				}
+				// Discookie
+				if(Game.Has("Discookie") && !DiscookieCalc) 
+				{
+					// +30,000cps
+					DiscookieCalc = true;
+				} else if (!Game.Has("Discookie") && DiscookieCalc){
+					// -30,000cps
+					DiscookieCalc = false;
+				}
+				// Remeber :
+				// Game.effs.milk = Game.effs.milk ? Game.effs.milk * 0.5 : 0.5
+			}
+		);
+	
+		Game.customChecks.push( 
+			function(){
+				if(Game.Has("Loreols")) {
+					Game.Unlock("Birthday Cake Loreols");
+					Game.Unlock("Mint Loreols");
+					Game.Unlock("Chocolate Loreols");
+					Game.Unlock("Peanut Butter Loreols");
+					Game.Unlock("Red Velvet Loreols");
+					Game.Unlock("Peanut Butter Chocolate Pie Loreols");
+					Game.Unlock("Spring Loreols");
+					Game.Unlock("Dark Chocolate Loreols");
+					Game.Unlock("Carrot Cake Loreols");
+					Game.Unlock("Golden Loreols");
+					Game.Unlock("Lemon Loreols");
+					Game.Unlock("Cinnamon Bun Loreols");
+				}
+			}
+		);
 		
 		/*
 		Game.customComputeLumpType.push(function () {
