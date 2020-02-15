@@ -13,7 +13,7 @@ This mod currently only adds a few cookies to the base game but it will add: <br
 
 The wiki is located <a href="https://masterofbob777cc.github.io/CookieClickerExtra/">here</a>
 ```javascript
-javascript:( function () { Game.LoadMod("https://masterofbob777cc.github.io/CookieClickerExtra/moid/MainMod.js"); }(); );
+javascript:( function () { Game.LoadMod("https://masterofbob777cc.github.io/CookieClickerExtra/mod/MainMod.js"); }(); );
 ```
 
 Created by :
