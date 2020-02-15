@@ -249,6 +249,7 @@ MainMod.launch = function () {
 		//// Achievements
 		
 		//// Buffs
+                /*
 		CCSE.NewBuff("Exploring", function(time){
 			return {
 				name: 'Exploring',
@@ -259,6 +260,7 @@ MainMod.launch = function () {
 				onDie:function(){expl}
 			};
 		}})
+                */
 		
 		//// Debug
 		
